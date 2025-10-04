@@ -175,7 +175,10 @@ export default function Home() {
                       <p className="text-zinc-400 text-sm mb-1">{product.color}</p>
                       <p className="text-2xl font-bold text-white">{product.price}</p>
                     </div>
-                    <Button type="button" className="bg-red-600 hover:bg-red-700 text-white" href="https://wa.me/3142636622">Agregar</Button>
+                    <Button type="submit" className="bg-red-600 hover:bg-red-700 text-white" >
+                    <Link href="https://wa.me/3142636622" > Agregar
+                    </Link>
+                    </Button>
                   </div>
                 </div>
               </div>
@@ -191,8 +194,10 @@ export default function Home() {
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto leading-relaxed">
             Sigue nuestras redes sociales para ver los últimos lanzamientos, promociones exclusivas y contenido fitness
           </p>
-          <Button type ="button" size="lg" className="bg-white text-red-600 hover:bg-zinc-100 px-8 py-6 text-lg font-semibold" href="https://www.instagram.com/noovafit?igsh=MTc0Yjd0N2E3Mmh0MA==" >
+          <Button type ="button" size="lg" className="bg-white text-red-600 hover:bg-zinc-100 px-8 py-6 text-lg font-semibold"  >
+         <Link href="https://www.instagram.com/noovafit?igsh=MTc0Yjd0N2E3Mmh0MA==">
             Seguir en Instagram
+        </Link>
           </Button>
         </div>
       </section>
