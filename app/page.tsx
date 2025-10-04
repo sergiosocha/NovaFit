@@ -8,42 +8,42 @@ export default function Home() {
     {
       id: 1,
       name: "Break Limits Tee",
-      price: "$29.99",
+      price: "$50.000",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6040-pH2fpF8AojBynrQrOTVmDmDXVi0wC5.jpg",
       color: "Black",
     },
     {
       id: 2,
       name: "Pain Fighter Tee",
-      price: "$29.99",
+      price: "$50.000",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6011-o8tj1B560gxZBqFHLYSwVP77A0c25s.jpg",
       color: "Cream",
     },
     {
       id: 3,
       name: "Standard Skull Tee",
-      price: "$29.99",
+      price: "$50.000",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_5996-TwMpxUL8uat4NuwGoL787tDICuUJpd.jpg",
       color: "Black",
     },
     {
       id: 4,
       name: "Standard Skull Tee",
-      price: "$29.99",
+      price: "$50.000",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_5987-hbKFShVEQkbWTjkAVuXx6LObpdDXhT.jpg",
       color: "White",
     },
     {
       id: 5,
       name: "Gym Rat Tee",
-      price: "$29.99",
+      price: "$50.000",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_5973-2V2h3OAvZFBAISE1TYeW06xsVZHRe7.jpg",
       color: "Cream",
     },
     {
       id: 6,
       name: "Gym Rat Tee",
-      price: "$29.99",
+      price: "$50.000",
       image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_5977-WqhfD9g1RNhs562bd0gwGw80TLaypT.jpg",
       color: "White",
     },
@@ -132,7 +132,7 @@ export default function Home() {
       <section className="bg-red-600 py-3">
         <div className="container mx-auto px-4">
           <p className="text-center text-white font-semibold text-sm md:text-base">
-            🔥 ENVÍO GRATIS EN COMPRAS MAYORES A $50 • ENTREGAS EN TODO EL PAÍS
+            🔥  • ENTREGAS EN TODO EL PAÍS •    🔥
           </p>
         </div>
       </section>
