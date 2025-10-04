@@ -58,7 +58,7 @@ export default function Home() {
             {/* Logo */}
             <Link href="/" className="flex items-center">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-bq5IgcoPlmZgHNkxWJcy268WlirYh7.jpg"
+                src="/images/design-mode/logo.jpg"
                 alt="Nova Fit"
                 width={60}
                 height={60}
@@ -131,9 +131,7 @@ export default function Home() {
       {/* Featured Banner */}
       <section className="bg-red-600 py-3">
         <div className="container mx-auto px-4">
-          <p className="text-center text-white font-semibold text-sm md:text-base">
-            🔥  • ENTREGAS EN TODO EL PAÍS •    🔥
-          </p>
+          <p className="text-center text-white font-semibold text-sm md:text-base">ENTREGAS EN TODO EL PAÍS</p>
         </div>
       </section>
 
@@ -177,7 +175,7 @@ export default function Home() {
                       <p className="text-zinc-400 text-sm mb-1">{product.color}</p>
                       <p className="text-2xl font-bold text-white">{product.price}</p>
                     </div>
-                    <Button className="bg-red-600 hover:bg-red-700 text-white">Agregar</Button>
+                    <Button type="button" className="bg-red-600 hover:bg-red-700 text-white" href="https://wa.me/3142636622">Agregar</Button>
                   </div>
                 </div>
               </div>
@@ -193,7 +191,7 @@ export default function Home() {
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto leading-relaxed">
             Sigue nuestras redes sociales para ver los últimos lanzamientos, promociones exclusivas y contenido fitness
           </p>
-          <Button size="lg" className="bg-white text-red-600 hover:bg-zinc-100 px-8 py-6 text-lg font-semibold">
+          <Button type ="button" size="lg" className="bg-white text-red-600 hover:bg-zinc-100 px-8 py-6 text-lg font-semibold" href="https://www.instagram.com/noovafit?igsh=MTc0Yjd0N2E3Mmh0MA==" >
             Seguir en Instagram
           </Button>
         </div>
@@ -205,7 +203,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-bq5IgcoPlmZgHNkxWJcy268WlirYh7.jpg"
+                src="/images/design-mode/logo.jpg"
                 alt="Nova Fit"
                 width={80}
                 height={80}
