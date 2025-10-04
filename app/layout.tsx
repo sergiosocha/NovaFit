@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Nova Fit',
   description: 'Tienda de ropa fitnes',
   generator: 'v0.app',
+  icons: {
+    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-bq5IgcoPlmZgHNkxWJcy268WlirYh7.jpg',
+  },
 }
 
 export default function RootLayout({
